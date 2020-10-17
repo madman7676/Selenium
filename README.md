@@ -3,7 +3,7 @@
 
 
 ## Фрагмент кода
-### находим цену дома и ждем, пока она не станет 10 000 RUR, бронируем
+### Находим цену дома и ждем, пока она не станет 10 000 RUR, бронируем
 ```python
 button = browser.find_element_by_id("book")
 price = WebDriverWait(browser, 15).until(
